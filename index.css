@@ -34,8 +34,8 @@ h2 {
 
 button {
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     color: white;
     font-weight: bold;
     width: 200px;
@@ -47,6 +47,8 @@ button {
 
 #increment-btn {
     background: #FB862E;
+    margin-right: 5px;
+    margin-bottom: 10px;
 }
 
 #increment-btn:hover{
@@ -63,7 +65,11 @@ button {
 
 @media only screen and (max-width: 600px) {
     .container {
-    max-width: 90%;
+        max-width: 90%;
+    }
+
+    button {
+        width: 250px;
     }
 }
 
