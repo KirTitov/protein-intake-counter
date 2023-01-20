@@ -40,19 +40,29 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    transition: all;
+    cursor: pointer;
 }
 
 #increment-btn {
     background: #FB862E;
 }
 
+#increment-btn:hover{
+    background: #f1791e;
+}
+
 #save-btn {
     background: #00a1e4;
 }
 
+#save-btn:hover {
+    background: #0183bb;
+}
+
 @media only screen and (max-width: 600px) {
     .container {
-    max-width: 100%;
+    max-width: 90%;
     }
 }
 
