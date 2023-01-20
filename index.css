@@ -2,6 +2,7 @@ body {
     background-image: url("sport.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
     color:#181B15;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
